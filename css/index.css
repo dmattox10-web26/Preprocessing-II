@@ -270,3 +270,12 @@ header nav .nav-items a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  display: flex;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background: #17A2B8;
+  color: #FFFFFF;
+  font-size: 2rem;
+  justify-content: center;
+}
