@@ -207,7 +207,7 @@ header nav .nav-items a {
   text-decoration: none;
   color: #212529;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   header nav {
     flex-direction: column;
     width: 100%;
@@ -241,7 +241,7 @@ header nav .nav-items a {
 .home .main-header .header-text {
   margin: 1rem 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .home .main-header {
     margin: 0 2%;
   }
@@ -263,7 +263,7 @@ header nav .nav-items a {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .home .content-section {
     margin: 0 2%;
     flex-direction: column;
@@ -289,7 +289,7 @@ header nav .nav-items a {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .home .inverse-content {
     margin: 0 2%;
     flex-direction: column-reverse;
@@ -302,7 +302,7 @@ header nav .nav-items a {
 .home .content-destination img {
   border-radius: 10px;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .home .content-destination {
     margin: 0 2%;
     width: 95%;
@@ -327,7 +327,7 @@ header nav .nav-items a {
   font-size: 2rem;
   justify-content: center;
 }
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .home .content-pick {
     align-items: center;
     flex-direction: column;
