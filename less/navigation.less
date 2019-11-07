@@ -5,6 +5,7 @@ header {
     display: flex;
     justify-content: center;
     nav {
+
         display: flex;
         width: 85%;
         div {
@@ -14,7 +15,6 @@ header {
     
         .nav-logo {
             justify-content: flex-start;
-             
             a {
                 text-decoration: none;
                 color: @font-color;
@@ -31,6 +31,24 @@ header {
                 justify-content: space-between;
                 text-decoration: none;
                 color: @font-color;
+            }
+        }
+
+        @media @mobile {
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            div {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .nav-logo {
+                justify-content: center;
+            }
+
+            .nav-items {
+                justify-content: space-around;
             }
         }
     }
